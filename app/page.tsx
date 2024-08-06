@@ -1,3 +1,4 @@
+"use client";
 import { Grid, Hero } from "@/components";
 import { FloatingNav } from "@/components/ui";
 import { FaHome } from "react-icons/fa";
