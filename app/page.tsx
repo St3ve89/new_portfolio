@@ -1,5 +1,5 @@
 "use client";
-import { Grid, Hero } from "@/components";
+import { Grid, Hero, RecentProjects } from "@/components";
 import { FloatingNav } from "@/components/ui";
 import { FaHome } from "react-icons/fa";
 
@@ -12,6 +12,7 @@ export default function Home() {
         />
         <Hero />
         <Grid />
+        <RecentProjects />
       </div>
     </main>
   );
